@@ -1,0 +1,136 @@
+body {
+  color: darkslategrey;
+  font-family: arial, sans-serif;
+  font-size: 17px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#copyright {
+  font-weight: bold;
+  font-style: italic;
+}
+
+h1  {
+  font-size:30px;
+  font-family: 'audiowide', cursive;
+}
+
+h2 {
+  font-size:24px;
+  background-color: lightskyblue;
+  border-radius: 5px;
+}
+
+h1, h2, a, a:visited {
+  color: darkblue;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1 a, h1 a:visited {
+  color: white;
+}
+
+/* icone do "leia mais" */
+
+h2 a, h2 a:visited {
+  color: lightskyblue;
+}
+
+h1:hover a, h2:hover a {
+  color: darkblue;
+}
+
+
+i.material-icons {
+  font-size: 1rem;
+}
+
+p, i.material-icons {
+  line-height: 1.5rem;
+}
+
+/* botão de voltar da página resumo */
+
+.btn {
+  font-size: 1.3rem;  
+  text-decoration: none;
+  line-height: 1.3rem;
+}
+
+.btn svg {
+  fill: darkblue;
+  height: 1.0rem;
+}
+
+.btn:hover {
+  text-decoration: none;
+  color: white;
+  background-color: darkblue;
+}
+
+.btn:hover svg {
+  fill: white;
+}
+
+/* social links */
+
+#social a svg {
+  height: 2rem;
+  border-radius: 8px;
+}
+
+#social {
+  text-align: center;
+  text-decoration: none;
+}
+
+#social a svg:hover {
+  text-decoration: none;
+}
+
+#linke {
+  fill: navy;
+  text-decoration: none;
+}
+
+#face {
+  fill: navy;
+  text-decoration: none;
+}
+
+#twi {
+  fill: dodgerblue;
+  margin-inline: 2px;
+  text-decoration: none;
+}
+
+/* estilo em impressão */
+
+@media print {
+
+  body, h1 {
+    color: black;
+    font-family: Times, serif;
+  }
+
+  #elon {
+    text-align: left;
+  }
+
+  h2 {
+    background-color: unset;
+  }
+
+  h2 a, .topo {
+    color: white;
+  }
+}
