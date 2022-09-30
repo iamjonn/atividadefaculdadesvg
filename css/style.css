@@ -39,7 +39,7 @@ h1 a, h1 a:visited {
   color: white;
 }
 
-/* icone do "leia mais" */
+
 
 h2 a, h2 a:visited {
   color: lightskyblue;
@@ -58,7 +58,7 @@ p, i.material-icons {
   line-height: 1.5rem;
 }
 
-/* botão de voltar da página resumo */
+
 
 .btn {
   font-size: 1.3rem;  
@@ -81,7 +81,7 @@ p, i.material-icons {
   fill: white;
 }
 
-/* social links */
+
 
 #social a svg {
   height: 2rem;
@@ -113,7 +113,7 @@ p, i.material-icons {
   text-decoration: none;
 }
 
-/* estilo em impressão */
+
 
 @media print {
 
