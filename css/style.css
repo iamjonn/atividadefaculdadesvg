@@ -4,6 +4,11 @@ body {
   font-size: 17px;
 }
 
+
+img {
+  border-radius: 50%;
+}
+
 .text-center {
   text-align: center;
 }
